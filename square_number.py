@@ -1,2 +1,5 @@
+import math
+
 num = int(input("Введіть число: "))
-print("Квадрат числа:", num ** 2)
+result = math.pow(num, 2)
+print("Квадрат числа:", result)
